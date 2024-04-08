@@ -16,7 +16,7 @@ client = OpenAI(
   api_key="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"
 )
 
-num_instructions_to_generate = 1000
+num_instructions_to_generate = 2000
 machine_sample = 2
 seed_sample = 8
 machine_gen = 8
@@ -57,7 +57,7 @@ def handle_completion(comp, num):
     return []
 
 if __name__ == "__main__":
-    seed_tasks = [json.loads(line) for line in open(r"D:\Desktop\cs2916\seed_tasks.jsonl", "r")]
+    seed_tasks = [json.loads(line) for line in open(r"D:\Desktop\dsa\seed_tasks.jsonl", "r")]
     seed_instructions = [item["instruction"] for item in seed_tasks]
     print("Have loaded {} tasks".format(len(seed_tasks)))
     
@@ -65,8 +65,15 @@ if __name__ == "__main__":
     
     machine_tasks = []
     machine_req_idx = 0
-    if os.path.exists(r"D:\Desktop\cs2916\machine_tasks.jsonl"):
-        with open(r"D:\Desktop\cs2916\machine_tasks.jsonl", "r") as fw:
+    if os.path.exists(r"D:\Desktop\dsa\machine_tasks-1.jsonl"):
+        with open(r"D:\Desktop\dsa\machine_tasks-1.jsonl", "r") as fw:
+            for line in fw:
+                ins = json.loads(line)
+                machine_tasks.append(ins)
+                machine_req_idx = ins["machine_req_idx"] + 1
+        print("Have loaded {} tasks".format(len(machine_tasks)))
+    if os.path.exists(r"D:\Desktop\dsa\machine_tasks-2.jsonl"):
+        with open(r"D:\Desktop\dsa\machine_tasks-2.jsonl", "r") as fw:
             for line in fw:
                 ins = json.loads(line)
                 machine_tasks.append(ins)
@@ -74,7 +81,7 @@ if __name__ == "__main__":
         print("Have loaded {} tasks".format(len(machine_tasks)))
     machine_instructions = [item["instruction"] for item in machine_tasks]
     
-    with open(r"D:\Desktop\cs2916\machine_tasks.jsonl", "a") as fw:
+    with open(r"D:\Desktop\dsa\machine_tasks-2.jsonl", "a") as fw:
         while len(machine_instructions) < num_instructions_to_generate:
             prompt_instructions = random.sample(machine_instructions, min(machine_sample, len(machine_instructions)))
             prompt_instructions += random.sample(seed_instructions, machine_sample + seed_sample - len(prompt_instructions))
