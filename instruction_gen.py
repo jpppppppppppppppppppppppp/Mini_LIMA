@@ -18,7 +18,7 @@ client = OpenAI(
 )
 
 random.seed(time.time())
-num_instructions_to_generate = 2000
+num_instructions_to_generate = 10000
 machine_sample = 6
 seed_sample = 12
 machine_gen = 18
@@ -35,30 +35,31 @@ def handle_completion(comp, num):
         if comp.choices[0].finish_reason == "length":
             return []
         cho = comp.choices[0].message.content
-        raw = re.findall(r'(?:Task\s*)?\d+\.\s*(.*)', cho)
+        raw = re.findall(r'(\s*\d+\.\s*)?(\s*Task\s*\d+\.\s*)?(.*)', cho)
         ret = []
-        for ins in raw:
-            ins = re.sub(r"\s+", " ", ins).strip()
-            ins = ins.strip().capitalize()
-            if ins == "":
-                continue
-            if len(ins.split()) <= 3 or len(ins.split()) > 150:
-                continue
-            if any(find_word_in_string(word, ins) for word in ["image", "images", "graph", "graphs", "picture", "pictures", "file", "files", "map", "maps", "draw", "plot", "go to", "music", "powerpoint"]):
-                continue
-            if ins.startswith("Write a program"):
-                continue
-            if ins.startswith("Write a code"):
-                continue
-            if ins.startswith("Write a script"):
-                continue
-            if not ins[0].isascii():
-                continue
-            if ins[0].isnumeric():
-                continue
-            if ins[0] in string.punctuation:
-                continue
-            ret.append(ins)
+        for inss in raw:
+            for ins in inss:
+                ins = re.sub(r"\s+", " ", ins).strip()
+                ins = ins.strip().capitalize()
+                if ins == "":
+                    continue
+                if len(ins.split()) <= 3 or len(ins.split()) > 150:
+                    continue
+                if any(find_word_in_string(word, ins) for word in ["image", "images", "graph", "graphs", "picture", "pictures", "file", "files", "map", "maps", "draw", "plot", "go to", "music", "powerpoint", "rite a program", "rite a code", "rite a code"]):
+                    continue
+                if ins.startswith("Write a program"):
+                    continue
+                if ins.startswith("Write a code"):
+                    continue
+                if ins.startswith("Write a script"):
+                    continue
+                if not ins[0].isascii():
+                    continue
+                if ins[0].isnumeric():
+                    continue
+                if ins[0] in string.punctuation:
+                    continue
+                ret.append(ins)
         return ret
     return []
 
@@ -71,24 +72,18 @@ if __name__ == "__main__":
     
     machine_tasks = []
     machine_req_idx = 0
-    if os.path.exists(r"D:\Desktop\dsa\machine_tasks-1.jsonl"):
-        with open(r"D:\Desktop\dsa\machine_tasks-1.jsonl", "r") as fw:
-            for line in fw:
-                ins = json.loads(line)
-                machine_tasks.append(ins)
-                machine_req_idx = ins["machine_req_idx"] + 1
-        print("Have loaded {} tasks".format(len(machine_tasks)))
-    if os.path.exists(r"D:\Desktop\dsa\machine_tasks-2.jsonl"):
-        with open(r"D:\Desktop\dsa\machine_tasks-2.jsonl", "r") as fw:
-            for line in fw:
-                ins = json.loads(line)
-                machine_tasks.append(ins)
-                machine_req_idx = ins["machine_req_idx"] + 1
-        print("Have loaded {} tasks".format(len(machine_tasks)))
+    idx = int(num_instructions_to_generate / 1000)
+    for i in range (1, idx+1):
+        if os.path.exists(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(i)):
+            with open(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(i), "r") as fw:
+                for line in fw:
+                    ins = json.loads(line)
+                    machine_tasks.append(ins)
+                    machine_req_idx = ins["machine_req_idx"] + 1
+            print("Have loaded {} tasks".format(len(machine_tasks)))
     machine_instructions = [item["instruction"] for item in machine_tasks]
-    
-    with open(r"D:\Desktop\dsa\machine_tasks-2.jsonl", "a") as fw:
-        while len(machine_instructions) < num_instructions_to_generate:
+    while len(machine_instructions) < num_instructions_to_generate:
+        with open(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(int((len(machine_instructions) + 999)/1000 + ((len(machine_instructions) % 1000) == 0))), "a") as fw:
             prompts = []
             round = 1
             for tt in range(round):

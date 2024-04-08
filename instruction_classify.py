@@ -118,69 +118,69 @@ template = [
 ]
 
 if __name__ == "__main__":
-    idx = 1
-    if os.path.exists(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(idx)):
-        with open(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(idx), "r") as fw:
-            lines = fw.readlines()
-            print("Have loaded {} tasks".format(len(lines)))
-    exist_ins = {}
-    if os.path.exists(r"D:\Desktop\dsa\cls_machine_tasks-{}.jsonl".format(idx)):
-        with open(r"D:\Desktop\dsa\cls_machine_tasks-{}.jsonl".format(idx), "r") as fw:
-            for line in fw:
-                ins = json.loads(line)
-                exist_ins[ins["instruction"]] = ins
-        print("Have existed {} tasks".format(len(exist_ins)))
-    
-    with open(r"D:\Desktop\dsa\cls_machine_tasks-{}.jsonl".format(idx), "w") as fw:
-        i = 0
-        while i + 1 < len(lines):
-            line = json.loads(lines[i])
-            if line["instruction"] in exist_ins:
-                data = exist_ins[line["instruction"]]
-                data = OrderedDict(
-                        (k, data[k]) for k in \
-                            ["instruction", "is_classification"]
-                        )
-                fw.write(json.dumps(data, ensure_ascii=False) + "\n")
-                i += 1
-            else:
-                prompt = "Task: " + line["instruction"].strip() + "\n" + "Is it classification?"
-                prompt = {"role" : "user", "content" : prompt}
-                prompts = template.copy()
-                prompts.append(prompt)
-                print(prompt["content"])
-                try:
-                    completion = client.chat.completions.create(
-                        model="mistralai/mistral-7b-instruct:free",
-                        messages=prompts, 
-                        stop=["\n", "Task"],
-                        max_tokens = 3,
-                        n=1,
-                        temperature=0,
-                        top_p=0,
-                        frequency_penalty=0,
-                        presence_penalty=0,
-                    )
-                    if completion.choices is not None:
-                        print(completion.choices[0].message.content)
-                        data = line
-                        data["is_classification"] = completion.choices[0].message.content
-                    else:
-                        data["is_classification"] = ""
-                    data = {
-                            "instruction": data["instruction"],
-                            "is_classification": data["is_classification"]
-                        }
+    for idx in range(1, 3):
+        if os.path.exists(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(idx)):
+            with open(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(idx), "r") as fw:
+                lines = fw.readlines()
+                print("Have loaded {} tasks".format(len(lines)))
+        exist_ins = {}
+        if os.path.exists(r"D:\Desktop\dsa\cls_machine_tasks-{}.jsonl".format(idx)):
+            with open(r"D:\Desktop\dsa\cls_machine_tasks-{}.jsonl".format(idx), "r") as fw:
+                for line in fw:
+                    ins = json.loads(line)
+                    exist_ins[ins["instruction"]] = ins
+            print("Have existed {} tasks".format(len(exist_ins)))
+        
+        with open(r"D:\Desktop\dsa\cls_machine_tasks-{}.jsonl".format(idx), "w") as fw:
+            i = 0
+            while i + 1 < len(lines):
+                line = json.loads(lines[i])
+                if line["instruction"] in exist_ins:
+                    data = exist_ins[line["instruction"]]
                     data = OrderedDict(
                             (k, data[k]) for k in \
                                 ["instruction", "is_classification"]
                             )
                     fw.write(json.dumps(data, ensure_ascii=False) + "\n")
-                    fw.flush()
                     i += 1
-                    time.sleep(5)
-                except Exception as e:
-                    print(e)
-                    time.sleep(10)
-            if i % 5 == 4:
-                print(i)
+                else:
+                    prompt = "Task: " + line["instruction"].strip() + "\n" + "Is it classification?"
+                    prompt = {"role" : "user", "content" : prompt}
+                    prompts = template.copy()
+                    prompts.append(prompt)
+                    print(prompt["content"])
+                    try:
+                        completion = client.chat.completions.create(
+                            model="mistralai/mistral-7b-instruct:free",
+                            messages=prompts, 
+                            stop=["\n", "Task"],
+                            max_tokens = 3,
+                            n=1,
+                            temperature=0,
+                            top_p=0,
+                            frequency_penalty=0,
+                            presence_penalty=0,
+                        )
+                        if completion.choices is not None:
+                            print(completion.choices[0].message.content)
+                            data = line
+                            data["is_classification"] = completion.choices[0].message.content
+                        else:
+                            data["is_classification"] = ""
+                        data = {
+                                "instruction": data["instruction"],
+                                "is_classification": data["is_classification"]
+                            }
+                        data = OrderedDict(
+                                (k, data[k]) for k in \
+                                    ["instruction", "is_classification"]
+                                )
+                        fw.write(json.dumps(data, ensure_ascii=False) + "\n")
+                        fw.flush()
+                        i += 1
+                        time.sleep(5)
+                    except Exception as e:
+                        print(e)
+                        time.sleep(10)
+                if i % 5 == 4:
+                    print(i)
