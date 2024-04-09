@@ -18,7 +18,7 @@ client = OpenAI(
 )
 
 random.seed(time.time())
-num_instructions_to_generate = 10000
+num_instructions_to_generate = 20000
 machine_sample = 6
 seed_sample = 12
 machine_gen = 18

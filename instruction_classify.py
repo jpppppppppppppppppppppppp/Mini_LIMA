@@ -118,7 +118,7 @@ template = [
 ]
 
 if __name__ == "__main__":
-    for idx in range(1, 3):
+    for idx in range(1, 4):
         if os.path.exists(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(idx)):
             with open(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(idx), "r") as fw:
                 lines = fw.readlines()
@@ -133,7 +133,7 @@ if __name__ == "__main__":
         
         with open(r"D:\Desktop\dsa\cls_machine_tasks-{}.jsonl".format(idx), "w") as fw:
             i = 0
-            while i + 1 < len(lines):
+            while i + 1 <= len(lines):
                 line = json.loads(lines[i])
                 if line["instruction"] in exist_ins:
                     data = exist_ins[line["instruction"]]
