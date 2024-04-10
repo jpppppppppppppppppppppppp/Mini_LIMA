@@ -1,0 +1,238 @@
+{"instruction": "Given a set of tweets, classify them as either fake news or real news.", "is_classification": "Yes"}
+{"instruction": "Given a set of social issues, classify their relation to a specific time period (e.g. the 1960s, the 1980s, the 2000s, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of sports, classify their relation to a specific type of activity (e.g. team sports, individual sports, field sports, etc.).", "is_classification": "Yes"}
+{"instruction": "Identify the topic of the following article: \"the new iphone has a lot of features that make it stand out from its competitors.\"", "is_classification": "No"}
+{"instruction": "Identify the main characters in the following tv show: \"friends\".", "is_classification": "No"}
+{"instruction": "Predict whether the news has a positive or negative impact on the education system.", "is_classification": "No"}
+{"instruction": "Identify the main theme of the following movie: \"the shawshank redemption\".", "is_classification": "No"}
+{"instruction": "Given a set of product ratings, classify them as either high-end or low-end.", "is_classification": "Yes"}
+{"instruction": "Identify the main characters in the following book: \"harry potter and the philosopher's stone\" by j.k. rowling.", "is_classification": "No"}
+{"instruction": "Given a set of educational documents, classify them into lesson plans, research papers, or other educational documents.", "is_classification": "Yes"}
+{"instruction": "Given a set of health and fitness data, classify them into weight loss, muscle gain, or overall health and fitness.", "is_classification": "Yes"}
+{"instruction": "Given a set of travel data, classify them into flights, hotels, or other travel-related data.", "is_classification": "Yes"}
+{"instruction": "Given a set of gaming data, classify them into console games, pc games, or mobile games.", "is_classification": "Yes"}
+{"instruction": "Given a set of finance data, classify them into stocks, bonds, or other financial instruments.", "is_classification": "Yes"}
+{"instruction": "Given a set of technology data, classify them into smartphones, laptops, or other electronic devices.", "is_classification": "Yes"}
+{"instruction": "Given a set of entertainment data, classify them into movies, tv shows, or other forms of entertainment.", "is_classification": "Yes"}
+{"instruction": "Given a set of real estate data, classify them into homes, apartments, or other types of properties.", "is_classification": "Yes"}
+{"instruction": "Given a set of scientific data, classify their units of measurement as metric or imperial.", "is_classification": "Yes"}
+{"instruction": "Translate the following sentence from english to spanish.", "is_classification": "No"}
+{"instruction": "Given a set of text data, classify the sentiment of the speaker into male or female.", "is_classification": "Yes"}
+{"instruction": "Given a set of movie data, classify the movie rating based on the number of stars.", "is_classification": "Yes"}
+{"instruction": "Identify the most popular tv show based on viewership.", "is_classification": "No"}
+{"instruction": "Identify the most popular social media platform based on user count.", "is_classification": "No"}
+{"instruction": "Given a set of historical events, classify the type of event mentioned in each description.", "is_classification": "Yes"}
+{"instruction": "You are given a set of customer reviews for a restaurant. classify them as positive, negative, or neutral.", "is_classification": "Yes"}
+{"instruction": "Given a set of job titles, classify them based on their profession: doctor, lawyer, teacher, engineer, artist.", "is_classification": "Yes"}
+{"instruction": "Given a set of travel destinations, classify their climate and terrain.", "is_classification": "No"}
+{"instruction": "Given a set of financial transactions, classify their type (income, expense, investment, loan, etc.).", "is_classification": "Yes"}
+{"instruction": "Classify the type of educational institution mentioned in a given piece of text (university, college, high school, elementary school, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of scientific papers, classify the type of experiment conducted in each paper (e.g., observational, randomized controlled trial, survey).", "is_classification": "Yes"}
+{"instruction": "Classify the type of sports based on the activity (e.g., running, swimming, cycling).", "is_classification": "Yes"}
+{"instruction": "Classify the type of art based on its style (e.g., impressionism, realism, abstract).", "is_classification": "Yes"}
+{"instruction": "Classify the type of vehicle based on its mode of transportation (e.g., car, train, airplane).", "is_classification": "Yes"}
+{"instruction": "Identify the body part of a given medical condition.", "is_classification": "No"}
+{"instruction": "Classify the type of plant based on its function (e.g., fruit, vegetable, herb, tree).", "is_classification": "Yes"}
+{"instruction": "Given a set of geological time periods, classify whether each period is prehistoric, historic, or modern.", "is_classification": "Yes"}
+{"instruction": "Given a set of scientific discoveries, classify whether each discovery is related to genetics, climate change, space exploration, or artificial intelligence.", "is_classification": "Yes"}
+{"instruction": "Given a set of historical events, classify whether each event is a pivotal moment, a turning point, or a catalyst for change.", "is_classification": "Yes"}
+{"instruction": "Given a set of scientific discoveries, classify whether each discovery has practical applications or not.", "is_classification": "Yes"}
+{"instruction": "Identify if the given text contains any hyperlinks.", "is_classification": "Yes"}
+{"instruction": "Viral infection, bacterial infection, neurological disorder.", "is_classification": "No"}
+{"instruction": "The sentence index of the longest sentence in the paragraph.", "is_classification": "Yes"}
+{"instruction": "A) the capital of france is paris, b) the eiffel tower is located in new york city, c) the mona lisa is a painting by leonardo da vinci, d) the statue of liberty is a famous work of literature.", "is_classification": "No"}
+{"instruction": "Cultural traditions specific to a region or ethnicity.", "is_classification": "No"}
+{"instruction": "Historical significance or not.", "is_classification": "No"}
+{"instruction": "True, false, or unknown.", "is_classification": "Yes"}
+{"instruction": "The passage index containing the answer to the query.", "is_classification": "No"}
+{"instruction": "Suitable or not suitable.", "is_classification": "Yes"}
+{"instruction": "Bachelor's, master's, doctoral, etc.", "is_classification": "No"}
+{"instruction": "Given a set of stock market data, classify whether each data point is about a specific stock, a specific industry, or a general stock market data.", "is_classification": "Yes"}
+{"instruction": "Given a set of social media posts, classify whether each post is about a specific topic, a specific person, or a general social media post.", "is_classification": "Yes"}
+{"instruction": "Given a set of software programs, classify whether each program is a productivity tool or a gaming tool.", "is_classification": "Yes"}
+{"instruction": "Predict the likelihood of a person defaulting on a loan. output the probability as a percentage.", "is_classification": "Yes"}
+{"instruction": "Determine the most likely emotion the given text expresses.", "is_classification": "No"}
+{"instruction": "Given a set of emails, classify them by their purpose (e.g. sales, customer service, marketing).", "is_classification": "Yes"}
+{"instruction": "Given a set of legal documents, classify them by their type (e.g. contract, agreement, statute).", "is_classification": "Yes"}
+{"instruction": "Given a set of medical records, classify them by their type (e.g. diagnosis, treatment plan, medication list).", "is_classification": "Yes"}
+{"instruction": "Given a set of educational records, classify them by their type (e.g. transcript, grade report, test scores).", "is_classification": "Yes"}
+{"instruction": "Given a set of travel itineraries, classify them by their type (e.g. business trip, family vacation, solo travel).", "is_classification": "Yes"}
+{"instruction": "Given a set of languages, classify them into indo-european, afro-asiatic, sino-tibetan, or austronesian languages.", "is_classification": "Yes"}
+{"instruction": "Given a set of scientific discoveries, classify them into breakthroughs, advancements, or theories.", "is_classification": "Yes"}
+{"instruction": "Given a set of historical figures, classify each figure into one of the following categories: religious leader, political leader, scientist, artist, or athlete.", "is_classification": "Yes"}
+{"instruction": "Given a set of text data, classify the level of formality in the text into formal, informal, or neutral.", "is_classification": "Yes"}
+{"instruction": "Given a set of sports teams, classify their relation to a specific geographic region (e.g. north america, europe, asia, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of geographical features, classify whether each feature is a landmark, a landform, a body of water, or a climate.", "is_classification": "Yes"}
+{"instruction": "Given a set of astronomical data, classify the data based on the type of celestial phenomenon.", "is_classification": "Yes"}
+{"instruction": "Given a set of historical events, classify them into time periods such as the ancient world, the middle ages, the renaissance, the enlightenment.", "is_classification": "Yes"}
+{"instruction": "Given a set of technological advancements, classify their relation to a specific industry (e.g., healthcare, transportation, entertainment).", "is_classification": "Yes"}
+{"instruction": "Predict whether a given text contains any spelling errors or not.", "is_classification": "Yes"}
+{"instruction": "Classify a given text into different levels of proficiency such as beginner, intermediate, advanced, etc.", "is_classification": "Yes"}
+{"instruction": "Given a set of stock prices, classify the stock that has the highest price.", "is_classification": "Yes"}
+{"instruction": "Given a set of famous quotes, classify the quote that has the most profound meaning.", "is_classification": "No"}
+{"instruction": "Given a set of religious texts, classify the text that has the most spiritual significance.", "is_classification": "Yes"}
+{"instruction": "Given a set of philosophical concepts, classify the concept that has the most profound impact on human thought.", "is_classification": "No"}
+{"instruction": "Given a set of mathematical equations, classify the equation that has the most significance in the field of mathematics.", "is_classification": "No"}
+{"instruction": "Given a set of books, classify their genre (e.g., romance, mystery, science fiction).", "is_classification": "Yes"}
+{"instruction": "Given a set of economic indicators, classify their source (e.g., government, private sector, international organizations).", "is_classification": "Yes"}
+{"instruction": "Given a set of social media posts, identify the most popular hashtags used in them.", "is_classification": "No"}
+{"instruction": "Given a set of social media profiles, identify the most popular accounts based on the number of followers and engagement.", "is_classification": "No"}
+{"instruction": "Given a set of domain names, classify them into categories such as .com, .org, .edu, etc.", "is_classification": "Yes"}
+{"instruction": "Classify whether the given sentence contains any ambiguity.", "is_classification": "Yes"}
+{"instruction": "Given a set of sports-related data, classify the ones that are related to a specific type of sport.", "is_classification": "Yes"}
+{"instruction": "Given a set of literary works, classify the ones that are related to a specific author or literary movement.", "is_classification": "Yes"}
+{"instruction": "Given a set of recipes, classify the recipes based on their cooking time (short, medium, long).", "is_classification": "Yes"}
+{"instruction": "Given a set of financial reports, classify the reports based on their accuracy (accurate, inaccurate, unknown).", "is_classification": "Yes"}
+{"instruction": "Given a set of political speeches, classify the speeches based on their tone (positive, negative, neutral).", "is_classification": "Yes"}
+{"instruction": "Given a set of medical procedures, classify the procedures based on their risk level (low, medium, high).", "is_classification": "Yes"}
+{"instruction": "Given a set of historical events, classify the events based on their impact (major, minor, unknown).", "is_classification": "Yes"}
+{"instruction": "Determine the currency of the following financial data.", "is_classification": "Yes"}
+{"instruction": "Given a set of medical data, identify the most common disease in the sample population.", "is_classification": "No"}
+{"instruction": "Identify the key players in a business deal based on news articles.", "is_classification": "No"}
+{"instruction": "Given a set of countries, classify them based on their currency (dollar, euro, yen, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of philosophers, classify them based on their school of thought (existentialism, stoicism, utilitarianism, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of poets, classify them based on their style (romantic, realist, surrealist, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of inventors, classify them based on their invention (telephone, automobile, computer, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of news articles, classify them into one of the following categories: breaking news, investigative journalism, opinion pieces, or feature stories.", "is_classification": "Yes"}
+{"instruction": "Given a set of medical symptoms, classify them into one of the following categories: respiratory, cardiovascular, neurological, or gastrointestinal.", "is_classification": "Yes"}
+{"instruction": "Given a set of products, classify them into one of the following categories: electronics, clothing, home goods, or beauty products.", "is_classification": "Yes"}
+{"instruction": "Given a set of countries, classify them into one of the following categories: developed countries, emerging markets, or post-conflict countries.", "is_classification": "Yes"}
+{"instruction": "Given a set of travel itineraries, classify them based on their activity level (relaxing, adventurous, cultural).", "is_classification": "Yes"}
+{"instruction": "Given a set of countries, classify them into categories (europe, asia, africa, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of movie reviews, classify them based on the genre (action, horror, romance, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of product reviews, classify them based on their brand loyalty (loyal, neutral, dissatisfied).", "is_classification": "Yes"}
+{"instruction": "Given a set of customer feedback, classify them based on their language proficiency (native, non-native).", "is_classification": "Yes"}
+{"instruction": "Classify the genre of a given song or album.", "is_classification": "Yes"}
+{"instruction": "Identify the winner of a given sports event.", "is_classification": "Yes"}
+{"instruction": "Given a set of stock tickers, classify their industry.", "is_classification": "Yes"}
+{"instruction": "Identify the highest mountain peak in a given region.", "is_classification": "Yes"}
+{"instruction": "Given a set of biological processes, classify whether they are related to respiration, digestion, reproduction, or other processes.", "is_classification": "Yes"}
+{"instruction": "Given a set of legal concepts, classify their type as contract law, criminal law, civil law, or other types.", "is_classification": "Yes"}
+{"instruction": "Predict whether the given text is a poem or not.", "is_classification": "Yes"}
+{"instruction": "Given a set of dates, classify the type of date (e.g., holiday, anniversary, birthday).", "is_classification": "Yes"}
+{"instruction": "Given a set of events, classify their type (e.g., festival, concert, conference).", "is_classification": "Yes"}
+{"instruction": "Predict the likelihood of a customer switching to a competitor based on their satisfaction level.", "is_classification": "No"}
+{"instruction": "Given a set of political speeches, classify whether each speech is a eulogy, inaugural address, or state of the union address.", "is_classification": "Yes"}
+{"instruction": "Classify the given website based on its content and purpose (e.g. news, social media, e-commerce, entertainment, etc.).", "is_classification": "Yes"}
+{"instruction": "Identify the most popular smartphone brand based on global sales.", "is_classification": "No"}
+{"instruction": "Classify the given sentence into different parts of speech (noun, verb, adjective, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of social media profiles, classify them based on the type of content they post (e.g. photos, videos, text, etc.).", "is_classification": "Yes"}
+{"instruction": "Determine the probability of a person getting sick with a particular disease based on their symptoms and medical history.", "is_classification": "Yes"}
+{"instruction": "Given a set of ingredients, classify the type of cuisine they belong to.", "is_classification": "Yes"}
+{"instruction": "Classify the sentiment of the following news article: \"scientists discover a new planet in the habitable zone.\"", "is_classification": "Yes"}
+{"instruction": "Classify the sentiment of the following news article: \"the stock market is experiencing a significant decline.\"", "is_classification": "Yes"}
+{"instruction": "Classify the sentiment of the following news article: \"a new study shows that exercise can improve mental health.\"", "is_classification": "Yes"}
+{"instruction": "Given a set of movie reviews, classify the movie as a thriller, horror, romance, or comedy.", "is_classification": "Yes"}
+{"instruction": "Given a set of weather reports, classify the severity of the weather condition (e.g. mild, moderate, severe, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of scientific experiments, classify the method of data collection (e.g. surveys, observations, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of medical records, classify them into different types of diseases or health conditions.", "is_classification": "Yes"}
+{"instruction": "Given a set of financial statements, classify them into different types of financial instruments or investments.", "is_classification": "Yes"}
+{"instruction": "Identify the most common phrase used in customer service interactions.", "is_classification": "No"}
+{"instruction": "Predict the likelihood of a person being a good fit for a certain job based on their skills and experience.", "is_classification": "Yes"}
+{"instruction": "Given a set of product names, classify their brand as apple, samsung, microsoft, or google.", "is_classification": "Yes"}
+{"instruction": "Given a set of job titles, classify their job function as management, sales, marketing, or engineering.", "is_classification": "Yes"}
+{"instruction": "Given a set of company names, classify their industry as retail, manufacturing, or service.", "is_classification": "Yes"}
+{"instruction": "Given a set of news articles, classify them by their topic. possible categories include: politics, sports, entertainment, business, finance, etc.", "is_classification": "Yes"}
+{"instruction": "Given a set of musical compositions, classify them by their genre. possible categories include: pop, rock, jazz, classical, hip-hop, etc.", "is_classification": "Yes"}
+{"instruction": "Given a set of customer feedback, classify them by their sentiment. possible categories include: positive, negative, neutral.", "is_classification": "Yes"}
+{"instruction": "Given a set of job postings, classify them by their requirements. possible categories include: technical skills, soft skills, education, experience, etc.", "is_classification": "Yes"}
+{"instruction": "Given a set of travel reviews, classify them by their location. possible categories include: europe, asia, north america, south america, africa, etc.", "is_classification": "Yes"}
+{"instruction": "Given a set of product features, classify them by their category. possible categories include: design, functionality, performance, etc.", "is_classification": "Yes"}
+{"instruction": "Given a set of scientific papers, classify them by their topic. possible categories include: biology, chemistry, physics, computer science, etc.", "is_classification": "Yes"}
+{"instruction": "Given a set of customer complaints, classify them by their type. possible categories include: product defects, delivery issues, customer service, etc.", "is_classification": "Yes"}
+{"instruction": "Given a set of social media trends, classify their impact on public opinion.", "is_classification": "Yes"}
+{"instruction": "Given a set of legal cases, classify their outcome based on the legal principles involved.", "is_classification": "Yes"}
+{"instruction": "Given a set of cultural traditions, classify their significance based on their historical and social context.", "is_classification": "Yes"}
+{"instruction": "Given a set of musical genres, classify their sub-genres based on their instrumentation and lyrics.", "is_classification": "No"}
+{"instruction": "Given a set of mathematical formulas, classify their complexity based on their level of abstraction.", "is_classification": "Yes"}
+{"instruction": "Given a set of philosophical concepts, classify their relationship to each other based on their logical consistency.", "is_classification": "Yes"}
+{"instruction": "Given a set of scientific experiments, classify their significance based on their potential for replication.", "is_classification": "Yes"}
+{"instruction": "Given a set of social movements, classify their impact on political and social structures.", "is_classification": "Yes"}
+{"instruction": "Given a set of literary devices, classify their effectiveness in conveying emotions and themes.", "is_classification": "No"}
+{"instruction": "Identify the language and dialect of a given speech or text.", "is_classification": "No"}
+{"instruction": "Identify the grammatical errors in a given paragraph.", "is_classification": "No"}
+{"instruction": "Predict the likelihood of a person to purchase a product based on the number of reviews it has.", "is_classification": "No"}
+{"instruction": "Identify the cultural references in a given text or speech.", "is_classification": "No"}
+{"instruction": "Determine the type of relationship between two given people (friends, family, enemies, etc.).", "is_classification": "No"}
+{"instruction": "Given a set of text documents, classify their authors based on their writing style.", "is_classification": "Yes"}
+{"instruction": "Given a set of social media profiles, classify them as personal, business, or influencer accounts.", "is_classification": "Yes"}
+{"instruction": "Given a set of job interviews, classify them as behavioral, technical, or fit interviews.", "is_classification": "Yes"}
+{"instruction": "Given a set of medical records, classify them as related to cardiology, oncology, neurology, or other specialties.", "is_classification": "Yes"}
+{"instruction": "Given a set of travel reviews, classify them as related to hotels, flights, restaurants, or other aspects of travel.", "is_classification": "Yes"}
+{"instruction": "Given a list of cities, suggest a tourist destination that is popular for its food.", "is_classification": "No"}
+{"instruction": "Given a list of companies, classify their industry into different categories such as technology, finance, healthcare, etc.", "is_classification": "Yes"}
+{"instruction": "Given a set of addresses, classify them by their country (e.g., usa, canada, uk, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of cities, classify them by their time zone (e.g., eastern, central, pacific, etc.).", "is_classification": "Yes"}
+{"instruction": "Predict whether a given song will be popular or not.", "is_classification": "No"}
+{"instruction": "Identify the capital city of the following country: france, germany, italy, or spain.", "is_classification": "Yes"}
+{"instruction": "Classify the type of movie genre based on the title of the movie.", "is_classification": "Yes"}
+{"instruction": "Detect if the youtube video contains copyrighted material.", "is_classification": "No"}
+{"instruction": "Identify the named entity in the sentence \"the president signed the new law yesterday.\"", "is_classification": "Yes"}
+{"instruction": "Classify the genre of the movie based on its title.", "is_classification": "Yes"}
+{"instruction": "Given a set of social media posts, classify their location (e.g. new york, los angeles, london).", "is_classification": "Yes"}
+{"instruction": "Classify the level of education required for the given job.", "is_classification": "Yes"}
+{"instruction": "Given a set of job descriptions, classify their skill requirements based on their level of difficulty: easy, medium, hard.", "is_classification": "Yes"}
+{"instruction": "Given a set of news articles, classify their sources based on their reliability: high, medium, low.", "is_classification": "Yes"}
+{"instruction": "Given a set of news articles, classify their language based on their tone: serious, sarcastic, ironic, optimistic, pessimistic.", "is_classification": "Yes"}
+{"instruction": "Given a set of social issues, classify them based on their severity (e.g., minor, major, critical).", "is_classification": "Yes"}
+{"instruction": "Predict whether the next tweet will be about politics, sports, entertainment, or technology.", "is_classification": "No"}
+{"instruction": "Predict whether the next article will be about science, technology, or medicine.", "is_classification": "No"}
+{"instruction": "Predict whether the next movie will be rated pg, pg-13, r, or x.", "is_classification": "No"}
+{"instruction": "Given a set of scientific concepts, classify them into physical science, biological science, or social science.", "is_classification": "Yes"}
+{"instruction": "Given a set of historical events, classify them into significant events, minor events, or trivial events.", "is_classification": "Yes"}
+{"instruction": "Given a set of geographical coordinates, classify the location as a landmark, a natural wonder, a historical site, a tourist attraction, or a point of interest.", "is_classification": "Yes"}
+{"instruction": "Given a set of animal names, classify their habitat (e.g., land, sea, air, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of plant names, classify their growth type (e.g., perennial, annual, shrub, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of sports, classify their team or individual participation (e.g., team sport, individual sport, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of historical events, classify the ones that had a significant impact on the world, on a country, or on a specific group of people.", "is_classification": "Yes"}
+{"instruction": "Identify the sentiment of the sentence in terms of the author's tone.", "is_classification": "Yes"}
+{"instruction": "Predict whether the given product is expensive or affordable.", "is_classification": "Yes"}
+{"instruction": "Given a set of sports news, classify the ones that are for a specific sport, for a specific league, or for a specific event.", "is_classification": "Yes"}
+{"instruction": "Given a set of geographical locations, classify the ones that are cities, states, countries, or continents.", "is_classification": "Yes"}
+{"instruction": "Given a set of sports teams, classify their type as professional, amateur, college, or high school.", "is_classification": "Yes"}
+{"instruction": "Given a set of mathematical formulas, classify their type as algebraic, geometric, trigonometric, or other mathematical formula.", "is_classification": "Yes"}
+{"instruction": "Given a set of financial data, classify the stock based on its performance (up, down, stable).", "is_classification": "Yes"}
+{"instruction": "Given a set of travel data, classify the destination based on its popularity (tourist hotspots, off-the-beaten-path destinations).", "is_classification": "Yes"}
+{"instruction": "Given a set of weather reports, classify whether the weather is likely to be sunny, rainy, or cloudy.", "is_classification": "Yes"}
+{"instruction": "Given a set of sports tournaments, classify whether the tournaments are likely to have a high impact on the sports industry or not.", "is_classification": "Yes"}
+{"instruction": "Translate the given sentence into another language.", "is_classification": "No"}
+{"instruction": "Given a set of scientific data, classify the probability of a certain event occurring.", "is_classification": "Yes"}
+{"instruction": "Given a set of movie ratings, classify the probability of a movie being a hit or not.", "is_classification": "Yes"}
+{"instruction": "Predict the weather for a given location on a given day.", "is_classification": "No"}
+{"instruction": "Classify whether a given product is organic or non-organic.", "is_classification": "Yes"}
+{"instruction": "Predict the stock price of a given company on a given day.", "is_classification": "No"}
+{"instruction": "Classify whether a given word is a synonym or antonym.", "is_classification": "Yes"}
+{"instruction": "Given a set of economic theories, classify them as either neoclassical, keynesian, or marxist.", "is_classification": "Yes"}
+{"instruction": "Given a set of historical events, classify the events based on their significance (e.g., turning point, milestone, tragedy, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of cultural traditions, classify the traditions based on their geographical origin (e.g., asia, europe, africa, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of natural disasters, classify the disasters based on their cause (e.g., volcanic, seismic, meteorological, etc.).", "is_classification": "Yes"}
+{"instruction": "Given a set of data, classify their statistical significance as significant or insignificant.", "is_classification": "Yes"}
+{"instruction": "Given a set of data, classify their outliers as potential errors or valid data points.", "is_classification": "Yes"}
+{"instruction": "Given a set of sentences, classify their coherence as coherent or incoherent.", "is_classification": "Yes"}
+{"instruction": "Given a set of keywords, classify their semantic similarity to a particular topic.", "is_classification": "Yes"}
+{"instruction": "Given a set of movie reviews, classify their ratings as one to five stars.", "is_classification": "Yes"}
+{"instruction": "Identify if the following sentence contains an idiom or not.", "is_classification": "No"}
+{"instruction": "You need to identify the type of sport mentioned in a given text (e.g., football, basketball, tennis, golf).", "is_classification": "Yes"}
+{"instruction": "Classify the gender of the person in the given name.", "is_classification": "No"}
+{"instruction": "Given a set of movies, classify them based on whether they are action or romance movies.", "is_classification": "Yes"}
+{"instruction": "Decide whether the given speech is formal or informal.", "is_classification": "Yes"}
+{"instruction": "Given a set of astronomical records, classify them as reliable, unreliable, or unknown.", "is_classification": "Yes"}
+{"instruction": "Given a set of scientific discoveries, classify the ones that have changed our understanding of the universe.", "is_classification": "Yes"}
+{"instruction": "Given a set of programming languages, classify the ones that are popular in the job market.", "is_classification": "Yes"}
+{"instruction": "Identify the most relevant information in a large document.", "is_classification": "No"}
+{"instruction": "Predict the stock price for a specific company at a certain time in the future.", "is_classification": "No"}
+{"instruction": "Given a set of urls, classify them based on their https status (yes or no).", "is_classification": "Yes"}
+{"instruction": "Given a set of text, classify them based on their formatting (e.g., headings, subheadings, bullet points, numbered lists).", "is_classification": "Yes"}
+{"instruction": "Given a set of text, classify them based on their punctuation marks (e.g., periods, commas, exclamation marks, question marks).", "is_classification": "Yes"}
+{"instruction": "Given a set of text, classify them based on their grammar (e.g., subject-verb agreement, sentence fragments, run-on sentences).", "is_classification": "Yes"}
+{"instruction": "Given a set of text, classify them based on their coherence and cohesion (e.g., logical organization, transitions, repetition).", "is_classification": "No"}
+{"instruction": "Given a set of text, classify them based on their style (e.g., formal, informal, literary, academic).", "is_classification": "Yes"}
+{"instruction": "Given a set of text, classify them based on their readability (e.g., flesch-kincaid, gunning fog index).", "is_classification": "Yes"}
+{"instruction": "Given a set of text, classify them based on their relevance (e.g., off-topic, on-topic, highly relevant).", "is_classification": "Yes"}
+{"instruction": "Identify the subject of the following sentence: \"the book on the table belongs to john.\"", "is_classification": "Yes"}
+{"instruction": "Identify the emotion expressed in the following sentence: \"i am so happy today!\"", "is_classification": "No"}
+{"instruction": "Identify the phone number mentioned in a given piece of text. output the phone number.", "is_classification": "No"}
+{"instruction": "Given a set of product descriptions, classify them into different types of products such as electronics, clothing, furniture, and home decor.", "is_classification": "Yes"}
+{"instruction": "Given a set of scientific discoveries, classify them into different types of discoveries such as genetic breakthroughs, climate change research, space exploration, and quantum physics.", "is_classification": "Yes"}
+{"instruction": "Given a set of famous quotes, classify them into different types of quotes such as inspirational, philosophical, political, and humorous.", "is_classification": "Yes"}
+{"instruction": "Given a set of cultural traditions, classify them into different types of traditions such as religious, social, artistic, and culinary.", "is_classification": "Yes"}
