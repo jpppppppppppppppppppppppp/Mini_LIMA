@@ -164,7 +164,7 @@
 {"instruction": "Determine if a given year is a leap year or not.", "is_classification": "Yes"}
 {"instruction": "Determine the common denominator of 73/12 and -19/8.", "is_classification": "No"}
 {"instruction": "What is the next number in the sequence: 1, 2, 4, 7, 11, 16, 23, 30, 37, 46, 55?", "is_classification": "No"}
-{"instruction": "What is the average speed of sound in air at 20¡ãc?", "is_classification": "No"}
+{"instruction": "What is the average speed of sound in air at 20Â°c?", "is_classification": "No"}
 {"instruction": "Solve the following puzzle: a group of 5 people are in a room with a locked door. they each have a different color balloon. one of them has a red balloon, one has a blue balloon, one has a green balloon, one has a yellow balloon, and one has an orange balloon. they need to exchange balloons so that no two people have the same color balloon. how many ways can they do this?", "is_classification": "No"}
 {"instruction": "Write a story that incorporates the theme of finding one's purpose in life.", "is_classification": "No"}
 {"instruction": "Determine the cause of a specific disease.", "is_classification": "No"}

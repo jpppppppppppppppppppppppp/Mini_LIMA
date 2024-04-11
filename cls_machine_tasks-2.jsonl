@@ -240,7 +240,7 @@
 {"instruction": "Write a python program to find the maximum and minimum values in a given list of numbers.", "is_classification": "No"}
 {"instruction": "Help me find the best deal on a specific product.", "is_classification": "No"}
 {"instruction": "Give me a list of popular movies or tv shows that have been released in the past year.", "is_classification": "No"}
-{"instruction": "Translate the following french sentence into english: \"je suis all®¶ au cin®¶ma hier soir.\"", "is_classification": "No"}
+{"instruction": "Translate the following french sentence into english: \"je suis all√© au cin√©ma hier soir.\"", "is_classification": "No"}
 {"instruction": "Given a list of words, choose 5 random words and create a sentence using them.", "is_classification": "No"}
 {"instruction": "Explain the concept of \"cognitive biases\" and give examples of some common ones.", "is_classification": "No"}
 {"instruction": "Given a paragraph, identify the main character and their occupation.", "is_classification": "No"}

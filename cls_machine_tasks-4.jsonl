@@ -627,7 +627,7 @@
 {"instruction": "Create a list of possible causes of a certain disease.", "is_classification": "No"}
 {"instruction": "Determine the time zones of a specific city.", "is_classification": "No"}
 {"instruction": "Find the least common multiple of two given numbers.", "is_classification": "No"}
-{"instruction": "Calculate the area of a circle with a radius of 5 centimeters. the formula for the area of a circle is a = ¶–r^2.", "is_classification": "No"}
+{"instruction": "Calculate the area of a circle with a radius of 5 centimeters. the formula for the area of a circle is a = œÄr^2.", "is_classification": "No"}
 {"instruction": "Tell me whether the given equation is correct: 2x + 3 = 5.", "is_classification": "Yes"}
 {"instruction": "Determine if the following email is spam or not.", "is_classification": "Yes"}
 {"instruction": "Summarize the main points of a research paper on climate change.", "is_classification": "No"}
@@ -891,7 +891,7 @@
 {"instruction": "Describe the color of the sky at sunrise.", "is_classification": "No"}
 {"instruction": "Identify the different types of fruits in a fruit salad.", "is_classification": "No"}
 {"instruction": "Write a story about a person who travels the world alone.", "is_classification": "No"}
-{"instruction": "Translate this sentence into any spanish dialect and say what dialect it is: \"los chicos est®¢n jugando al f®≤tbol.\"", "is_classification": "No"}
+{"instruction": "Translate this sentence into any spanish dialect and say what dialect it is: \"los chicos est√°n jugando al f√∫tbol.\"", "is_classification": "No"}
 {"instruction": "Given the name of a fruit, explain how to prepare it for eating.", "is_classification": "No"}
 {"instruction": "Plan a lesson plan for a lesson on basic arithmetic.", "is_classification": "No"}
 {"instruction": "You are provided with a resume, and you need to identify all the relevant skills and experiences listed in it.", "is_classification": "No"}
