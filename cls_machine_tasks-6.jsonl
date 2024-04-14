@@ -1,0 +1,316 @@
+{"instruction": "Write a list of things to do in a given amount of time (e.g., 1 hour, 2 hours, 1 day).", "is_classification": "No"}
+{"instruction": "Create a list of the top 10 highest-paying jobs in a given industry.", "is_classification": "No"}
+{"instruction": "Given a list of words, write a function in python that returns the word with the highest frequency in the list.", "is_classification": "No"}
+{"instruction": "Implement a recommendation system in python using the collaborative filtering technique.", "is_classification": "No"}
+{"instruction": "Determine the percentage of a specific stock in a portfolio.", "is_classification": "No"}
+{"instruction": "Identify the missing word in a famous quote.", "is_classification": "No"}
+{"instruction": "How would you design a website for a local restaurant?", "is_classification": "No"}
+{"instruction": "Give me the name of the tallest mammal.", "is_classification": "No"}
+{"instruction": "How do you find the most reliable source of information on a particular topic?", "is_classification": "No"}
+{"instruction": "What is the most common cause of heart disease?", "is_classification": "No"}
+{"instruction": "Identify the most important steps in the process of cooking a meal.", "is_classification": "No"}
+{"instruction": "Write a list of 10 reasons why people should visit your city.", "is_classification": "No"}
+{"instruction": "Create a pinterest board for a specific occasion.", "is_classification": "No"}
+{"instruction": "What are some ways to prevent a cold or flu?", "is_classification": "No"}
+{"instruction": "Identify the key elements of a good story and provide examples.", "is_classification": "No"}
+{"instruction": "What are the three main types of cellular respiration?", "is_classification": "Yes"}
+{"instruction": "Write a poem or a short story.", "is_classification": "No"}
+{"instruction": "Create a personal branding strategy.", "is_classification": "No"}
+{"instruction": "What are the top 10 cities in the world for art and culture?", "is_classification": "No"}
+{"instruction": "Given a list of dates, return the one with the most significant historical event.", "is_classification": "No"}
+{"instruction": "Given a list of vegetables, return the one with the highest vitamin c content.", "is_classification": "No"}
+{"instruction": "Given a list of rivers, return the one with the longest length.", "is_classification": "Yes"}
+{"instruction": "Generate a list of 10 potential reasons why someone might be feeling lonely.", "is_classification": "No"}
+{"instruction": "Develop a social media strategy.", "is_classification": "No"}
+{"instruction": "Identify the most commonly used programming languages.", "is_classification": "No"}
+{"instruction": "Develop a sentiment analysis algorithm that can determine the tone of a given text.", "is_classification": "Yes"}
+{"instruction": "Identify the key features of a successful e-commerce website.", "is_classification": "No"}
+{"instruction": "Identify the key factors that contribute to employee satisfaction.", "is_classification": "No"}
+{"instruction": "Explain to me why a certain type of bird can fly faster than others.", "is_classification": "No"}
+{"instruction": "Solve the following problem: \"a group of friends are planning a trip to a new city. they have a budget of $1000 and want to stay in a hotel that costs $200 per night. they also want to eat out for every meal and spend $50 per person per day. how much money will they have left after their trip?\"", "is_classification": "No"}
+{"instruction": "Explain to me why certain plants are poisonous.", "is_classification": "No"}
+{"instruction": "What is the difference between a money market fund and a savings account?", "is_classification": "No"}
+{"instruction": "Given a sentence, output the named entities in the sentence. named entities include person, organization, location, and time. here is an example: barack obama was born in hawaii. the named entities in the sentence are: barack obama (person), hawaii (location).", "is_classification": "Yes"}
+{"instruction": "Given a sentence, output the sentiment analysis of the sentence. the sentiment analysis result can be positive, negative, or neutral. here is an example: i love this movie. the sentiment analysis result is: positive.", "is_classification": "Yes"}
+{"instruction": "Explain the concept of genetic inheritance and its importance for understanding human traits.", "is_classification": "No"}
+{"instruction": "Convert the given sentence to the passive voice.", "is_classification": "No"}
+{"instruction": "Determine the most appropriate verb to use in a specific situation.", "is_classification": "No"}
+{"instruction": "Write a list of nouns to describe a specific place.", "is_classification": "No"}
+{"instruction": "Write a short story that includes the given words: cat, hat, and umbrella.", "is_classification": "No"}
+{"instruction": "Explain the concept of the double helix structure of dna.", "is_classification": "No"}
+{"instruction": "Describe the process of the process of nuclear fission.", "is_classification": "No"}
+{"instruction": "Given a set of equations, determine if they are linearly independent or linearly dependent.", "is_classification": "Yes"}
+{"instruction": "Given a list of words, determine the most common word and its frequency.", "is_classification": "No"}
+{"instruction": "Write a speech for a community event on the benefits of recycling.", "is_classification": "No"}
+{"instruction": "Given a set of equations, determine if they form a system of nonlinear equations.", "is_classification": "Yes"}
+{"instruction": "What are the best practices for conducting a job interview?", "is_classification": "No"}
+{"instruction": "What are the top 10 books every person should read?", "is_classification": "No"}
+{"instruction": "Explain the concept of \"privilege\" and provide examples of how it manifests in society.", "is_classification": "No"}
+{"instruction": "What is the value of the stock of apple inc.?", "is_classification": "No"}
+{"instruction": "Create a lesson plan for a science experiment for high school students.", "is_classification": "No"}
+{"instruction": "Identify and analyze the themes in a piece of literature.", "is_classification": "Yes"}
+{"instruction": "Develop a presentation on a new software or tool.", "is_classification": "No"}
+{"instruction": "Create a schedule for a week, including work hours, exercise, and personal time.", "is_classification": "No"}
+{"instruction": "Give me a sentence that i can use to express my gratitude.", "is_classification": "No"}
+{"instruction": "Create a list of 10 things that are easy to do but hard to resist.", "is_classification": "No"}
+{"instruction": "Identify the key events in the history of the internet.", "is_classification": "No"}
+{"instruction": "Given a user query, find the most relevant article on the topic.", "is_classification": "No"}
+{"instruction": "Solve the puzzle involving the missing numbers.", "is_classification": "No"}
+{"instruction": "Given a list of animals, suggest a pet for a child.", "is_classification": "Yes"}
+{"instruction": "Given a list of cities, suggest a place to visit for a weekend getaway.", "is_classification": "No"}
+{"instruction": "Provide a brief history of a particular topic or event.", "is_classification": "No"}
+{"instruction": "Write a list of potential character arcs for a story or novel.", "is_classification": "No"}
+{"instruction": "Write a list of potential themes for a non-fiction book or article.", "is_classification": "No"}
+{"instruction": "Given a list of items, suggest ways to use them creatively.", "is_classification": "No"}
+{"instruction": "Explain the concept of \"networking\" and its benefits in business.", "is_classification": "No"}
+{"instruction": "Write a letter to a restaurant to provide feedback on a recent dining experience.", "is_classification": "No"}
+{"instruction": "Determine the best course of action to handle a situation where a coworker is harassing another employee.", "is_classification": "No"}
+{"instruction": "Write a paragraph about a famous person who was born in your hometown.", "is_classification": "No"}
+{"instruction": "Identify the major rivers in north america.", "is_classification": "No"}
+{"instruction": "What are the key differences between a roth ira and a traditional ira?", "is_classification": "No"}
+{"instruction": "What are the different types of visas available for people who want to immigrate to the united states?", "is_classification": "No"}
+{"instruction": "What are the different types of celestial bodies in our solar system?", "is_classification": "Yes"}
+{"instruction": "Create a budget for a month, including at least 10 expenses and a total amount spent.", "is_classification": "No"}
+{"instruction": "Identify the countries that are part of the european union.", "is_classification": "Yes"}
+{"instruction": "Create a list of the top 10 historical figures who have had the most impact on the world.", "is_classification": "No"}
+{"instruction": "Given a series of numbers, determine if there is a pattern or sequence to them.", "is_classification": "No"}
+{"instruction": "Given a set of instructions, create a flowchart or diagram to represent them.", "is_classification": "No"}
+{"instruction": "Solve the following math problem: \"if a store sells apples for $0.50 each and oranges for $0.75 each, how many of each fruit should a person buy to spend exactly $3.00?\"", "is_classification": "No"}
+{"instruction": "Describe a situation in which a person's actions can have unintended consequences.", "is_classification": "No"}
+{"instruction": "Solve the following problem: \"a person has $100 and wants to buy 3 gifts that cost $30 each. what is the total cost of the gifts?\"", "is_classification": "No"}
+{"instruction": "How do you conduct research on a topic you're interested in?", "is_classification": "No"}
+{"instruction": "Write a story that includes the given characters: a hero, a villain, and a sidekick.", "is_classification": "No"}
+{"instruction": "Explain the process of creating a website or blog.", "is_classification": "No"}
+{"instruction": "What are the different types of cell phone operating systems?", "is_classification": "Yes"}
+{"instruction": "Explain the concept of sustainability to a high school student.", "is_classification": "No"}
+{"instruction": "Explain the concept of data mining to a college student.", "is_classification": "No"}
+{"instruction": "Explain how a particular animal is adapted to its environment.", "is_classification": "No"}
+{"instruction": "Explain how a particular scientific discovery has impacted society.", "is_classification": "No"}
+{"instruction": "Write a list of potential reasons why someone might want to move to a different country.", "is_classification": "No"}
+{"instruction": "Determine the most expensive car in the world.", "is_classification": "No"}
+{"instruction": "Create a program in python to generate a fibonacci sequence.", "is_classification": "No"}
+{"instruction": "Given a list of numbers, write a program that returns the numbers that are prime.", "is_classification": "Yes"}
+{"instruction": "Determine if the statement \"i have never traveled outside of the country\" is true or false.", "is_classification": "Yes"}
+{"instruction": "Given a set of strings, write a program to find the words that start with a certain letter.", "is_classification": "No"}
+{"instruction": "Given a set of words, find all possible anagrams.", "is_classification": "No"}
+{"instruction": "Analyze the theme of friendship in the movie \"the godfather\".", "is_classification": "No"}
+{"instruction": "Identify the given equation and solve it.", "is_classification": "No"}
+{"instruction": "Write a speech for a graduation ceremony, expressing your views on the future of the world.", "is_classification": "No"}
+{"instruction": "Find the highest-rated restaurant in your city on yelp.", "is_classification": "No"}
+{"instruction": "What are the best ways to reduce food waste and save money on groceries?", "is_classification": "No"}
+{"instruction": "What are the steps to properly clean and care for a specific type of clothing or accessory?", "is_classification": "No"}
+{"instruction": "What are the best ways to improve productivity and focus at work?", "is_classification": "No"}
+{"instruction": "Create a list of healthy snacks that can be eaten on-the-go.", "is_classification": "No"}
+{"instruction": "What are the different types of photography and how do they differ from each other?", "is_classification": "No"}
+{"instruction": "Create a list of things to do in a day for a person with a specific hobby.", "is_classification": "No"}
+{"instruction": "How do you calculate the amount of taxes owed on a salary?", "is_classification": "No"}
+{"instruction": "Determine the value of x in the equation 2x + 3 = 11.", "is_classification": "No"}
+{"instruction": "Create a list of the most common types of fruits and vegetables consumed by children.", "is_classification": "No"}
+{"instruction": "Choose a movie title that starts with the letter \"t\" and is related to the topic of \"time travel\".", "is_classification": "No"}
+{"instruction": "Given a list of numbers, find the number with the largest absolute value.", "is_classification": "Yes"}
+{"instruction": "Write a play or screenplay for a children's story.", "is_classification": "No"}
+{"instruction": "Find the weather forecast for a specific location and time.", "is_classification": "No"}
+{"instruction": "Find information about a famous historical figure and their accomplishments.", "is_classification": "No"}
+{"instruction": "Find information about a scientific discovery and its implications.", "is_classification": "No"}
+{"instruction": "Translate the following sentence from spanish to english: \"me encanta ir al parque.\"", "is_classification": "No"}
+{"instruction": "Research and explain the history of a famous invention.", "is_classification": "No"}
+{"instruction": "Develop a facebook ad campaign for a small business.", "is_classification": "No"}
+{"instruction": "Given a list of items, find the most expensive one.", "is_classification": "Yes"}
+{"instruction": "Determine the tense of the given sentence.", "is_classification": "Yes"}
+{"instruction": "Explain the concept of a circuit in electronics.", "is_classification": "No"}
+{"instruction": "Research and present a proposal for a new product or service.", "is_classification": "No"}
+{"instruction": "Generate a list of potential new features for a smartphone app.", "is_classification": "No"}
+{"instruction": "Generate a list of potential names for a new product.", "is_classification": "No"}
+{"instruction": "How can i make a successful job application?", "is_classification": "No"}
+{"instruction": "What are some ways to increase my productivity at work?", "is_classification": "No"}
+{"instruction": "What are some ways to overcome a fear or phobia?", "is_classification": "No"}
+{"instruction": "What is the process for getting a visa to live and work in a different country?", "is_classification": "No"}
+{"instruction": "What is the process for creating a new website?", "is_classification": "No"}
+{"instruction": "Suggest some activities for a rainy day.", "is_classification": "No"}
+{"instruction": "Given a sentence, write a code to check if it contains any negative words.", "is_classification": "Yes"}
+{"instruction": "Using the given data, create a table that shows the top 10 highest-paying jobs in the world.", "is_classification": "No"}
+{"instruction": "Using the given data, create a pie chart that shows the distribution of the world population by region.", "is_classification": "No"}
+{"instruction": "Write a persuasive essay about a social issue.", "is_classification": "No"}
+{"instruction": "Explain the concept of dna and its role in inheritance.", "is_classification": "No"}
+{"instruction": "Write a list of 10 things you would do if you were stuck in an elevator.", "is_classification": "No"}
+{"instruction": "Write a letter to a pen pal in a foreign country.", "is_classification": "No"}
+{"instruction": "Determine the value of 2 + 2 + 2 + 2.", "is_classification": "No"}
+{"instruction": "Given a scenario, suggest possible solutions and their advantages and disadvantages.", "is_classification": "No"}
+{"instruction": "Decide whether the argument in a political speech is persuasive or not.", "is_classification": "Yes"}
+{"instruction": "Create a simple calculator app that performs basic arithmetic operations.", "is_classification": "No"}
+{"instruction": "Develop a program in java to simulate the behavior of a group of birds in flight.", "is_classification": "No"}
+{"instruction": "Write a review of the latest season of a popular television show.", "is_classification": "No"}
+{"instruction": "Determine the best way to lose weight and maintain a healthy lifestyle.", "is_classification": "No"}
+{"instruction": "Write a play about a character who goes through a transformation.", "is_classification": "No"}
+{"instruction": "Determine the best way to save money.", "is_classification": "No"}
+{"instruction": "Identify the famous painting and its artist based on a description.", "is_classification": "Yes"}
+{"instruction": "Write a list of potential activities for a group of friends on a weekend.", "is_classification": "No"}
+{"instruction": "Write a list of potential holiday destinations for a family of two.", "is_classification": "No"}
+{"instruction": "What are the basic rules of chess?", "is_classification": "No"}
+{"instruction": "Write a story about a character's adventure in a foreign land.", "is_classification": "No"}
+{"instruction": "Identify the most popular types of food and drinks in the world.", "is_classification": "No"}
+{"instruction": "Write a speech on the importance of exercise and healthy eating habits.", "is_classification": "No"}
+{"instruction": "Identify the key ingredients and steps for making a certain dish.", "is_classification": "No"}
+{"instruction": "List the seven continents and their respective capitals.", "is_classification": "No"}
+{"instruction": "List the five vowels in the english alphabet.", "is_classification": "No"}
+{"instruction": "Write a paragraph on the importance of community involvement in local politics.", "is_classification": "No"}
+{"instruction": "Write the antonyms of the given word.", "is_classification": "No"}
+{"instruction": "Write the sentence in passive voice.", "is_classification": "No"}
+{"instruction": "Perform sentiment analysis on the given text.", "is_classification": "Yes"}
+{"instruction": "Write the list of words that describe the given emotion.", "is_classification": "No"}
+{"instruction": "Write the list of countries that use a particular currency.", "is_classification": "No"}
+{"instruction": "Solve a quadratic equation.", "is_classification": "No"}
+{"instruction": "Convert a decimal number to binary.", "is_classification": "No"}
+{"instruction": "Calculate the volume of a pyramid given its base area and height.", "is_classification": "No"}
+{"instruction": "Find the missing word in a sentence.", "is_classification": "No"}
+{"instruction": "Write a short summary of the given passage.", "is_classification": "No"}
+{"instruction": "Determine the intended meaning of the sentence \"i have a meeting at 2 pm.\"", "is_classification": "Yes"}
+{"instruction": "Provide an explanation for why the sky is blue.", "is_classification": "No"}
+{"instruction": "Create a list of 5 popular programming languages and their respective uses.", "is_classification": "No"}
+{"instruction": "Given a sentence, replace all the nouns with their corresponding adjectives.", "is_classification": "No"}
+{"instruction": "Create a word jumble and unscramble it.", "is_classification": "No"}
+{"instruction": "Determine the most profitable stock based on historical data.", "is_classification": "No"}
+{"instruction": "Determine the most effective way to improve a person's public speaking skills.", "is_classification": "No"}
+{"instruction": "Determine the most effective way to reduce carbon emissions.", "is_classification": "No"}
+{"instruction": "Given a set of data, identify the most likely outcome of a given decision.", "is_classification": "Yes"}
+{"instruction": "Give me the recipe for a chocolate cake.", "is_classification": "No"}
+{"instruction": "What are some common symptoms of a cold?", "is_classification": "No"}
+{"instruction": "Give me the lyrics to the national anthem of the united states.", "is_classification": "No"}
+{"instruction": "Write a speech about the benefits of a vegetarian diet.", "is_classification": "No"}
+{"instruction": "Create a list of all the elements on the periodic table.", "is_classification": "No"}
+{"instruction": "Identify the major organs of the human body and their functions.", "is_classification": "No"}
+{"instruction": "Given a list of cities, return the cities with a population over 1 million.", "is_classification": "No"}
+{"instruction": "Given a list of countries, return the countries with a currency that is not the us dollar.", "is_classification": "No"}
+{"instruction": "Generate a list of potential travel destinations.", "is_classification": "No"}
+{"instruction": "Create a class that represents a person and includes attributes for name, age, and occupation, as well as methods for introducing themselves and updating their information.", "is_classification": "No"}
+{"instruction": "Which is the closest to -0.1? (a) -0.3 (b) 1 (c) 1/5 (d) 0.01", "is_classification": "Yes"}
+{"instruction": "Which is the second biggest value? (a) -0.2 (b) 1 (c) 0.5 (d) -3", "is_classification": "Yes"}
+{"instruction": "Which is the smallest value? (a) 2/5 (b) -1/3 (c) -0.1 (d) 1", "is_classification": "Yes"}
+{"instruction": "Which is the fifth biggest value? (a) -0.5 (b) 1 (c) 2 (d) 0.2 (e) -1", "is_classification": "Yes"}
+{"instruction": "Given a set of words, perform a word frequency analysis.", "is_classification": "No"}
+{"instruction": "Given a set of data, perform a dimensionality reduction analysis to reduce the number of variables.", "is_classification": "No"}
+{"instruction": "Given a set of data, perform a factor analysis to identify underlying factors.", "is_classification": "No"}
+{"instruction": "Write a story that starts with the sentence: \"i woke up to the sound of my alarm clock ringing.\"", "is_classification": "No"}
+{"instruction": "Write a play about a group of people overcoming a challenge.", "is_classification": "No"}
+{"instruction": "Write a list of common expressions used in english.", "is_classification": "No"}
+{"instruction": "Design a workout routine for weight loss.", "is_classification": "No"}
+{"instruction": "Given a list of words, use anagrams to create new words.", "is_classification": "No"}
+{"instruction": "Given a list of numbers, use arithmetic operations to create new expressions.", "is_classification": "No"}
+{"instruction": "Create a shopping list based on a given budget and dietary restrictions.", "is_classification": "No"}
+{"instruction": "Create a list of 10 common english phrases and their translations in spanish.", "is_classification": "No"}
+{"instruction": "Write a letter to your congressman about a recent bill.", "is_classification": "No"}
+{"instruction": "Given a set of words, suggest a word that has the same vowel pattern.", "is_classification": "No"}
+{"instruction": "Explain the cultural significance of a particular holiday or festival.", "is_classification": "No"}
+{"instruction": "Given a list of cities, suggest a vacation spot for a person.", "is_classification": "No"}
+{"instruction": "Explain why a certain event or phenomenon is considered a \"black swan\" event.", "is_classification": "No"}
+{"instruction": "Given a sentence, convert it to a sentence that is written in the past tense.", "is_classification": "No"}
+{"instruction": "You are given a sentence, and you need to identify the subject and the predicate of the sentence.", "is_classification": "No"}
+{"instruction": "Convert 10.51244 liters to milliliters.", "is_classification": "No"}
+{"instruction": "Give me the name of the director of the last movie i watched.", "is_classification": "No"}
+{"instruction": "Translate the given sentence into another language and say which language it is.", "is_classification": "No"}
+{"instruction": "Write a speech or monologue on a specific topic or interest.", "is_classification": "No"}
+{"instruction": "Create a list of personal goals and how to achieve them.", "is_classification": "No"}
+{"instruction": "Create a list of healthy foods to include in a daily diet.", "is_classification": "No"}
+{"instruction": "Write a list of 5 popular books that have been published in the past year.", "is_classification": "No"}
+{"instruction": "Write a list of 5 popular video games and their ratings.", "is_classification": "No"}
+{"instruction": "Suggest a movie or tv show that is similar to a given title or genre.", "is_classification": "No"}
+{"instruction": "Suggest a travel destination that is similar to a given location.", "is_classification": "No"}
+{"instruction": "Suggest a restaurant or cafe that serves a particular type of cuisine.", "is_classification": "No"}
+{"instruction": "Given a list of countries, suggest the best places to visit for a cultural experience.", "is_classification": "No"}
+{"instruction": "Given a list of vocabulary words, write sentences using each word.", "is_classification": "No"}
+{"instruction": "Create a list of potential job opportunities in the field of technology.", "is_classification": "No"}
+{"instruction": "Calculate the percentage of the total budget that is spent on each category (e.g. food, housing, transportation).", "is_classification": "No"}
+{"instruction": "Solve the following differential equation: d/dx e^x = x, with initial condition x(0) = 0.", "is_classification": "No"}
+{"instruction": "Identify the major events that occurred in the year 1995.", "is_classification": "No"}
+{"instruction": "Create a list of 10 reasons why someone might choose to live in a city versus a rural area.", "is_classification": "No"}
+{"instruction": "Identify the major players in the stock market.", "is_classification": "No"}
+{"instruction": "Create a presentation about the history of a specific country.", "is_classification": "No"}
+{"instruction": "Analyze the sentiment of the following text: \"i had a great time at the beach today!\"", "is_classification": "Yes"}
+{"instruction": "Analyze the following dna sequence and identify any mutations or variations.", "is_classification": "No"}
+{"instruction": "Given a set of words and their corresponding definitions, write a program that generates a crossword puzzle.", "is_classification": "No"}
+{"instruction": "Solve the following optimization problem: given a set of points and a set of line segments, find the shortest path that visits each point exactly once and returns to the starting point.", "is_classification": "No"}
+{"instruction": "Write a story about a person who discovered something new.", "is_classification": "No"}
+{"instruction": "Give me a list of all the different types of flowers.", "is_classification": "Yes"}
+{"instruction": "Create a list of healthy meal prep ideas for the week.", "is_classification": "No"}
+{"instruction": "Write a short story that includes the given objects: a book, a pencil, a desk, and a cat.", "is_classification": "No"}
+{"instruction": "Choose a song and write the lyrics.", "is_classification": "No"}
+{"instruction": "Choose a historical event and write a report on it.", "is_classification": "No"}
+{"instruction": "Write a story about a person who has overcome a phobia.", "is_classification": "No"}
+{"instruction": "How do i plan a successful road trip?", "is_classification": "No"}
+{"instruction": "What are the best ways to stay motivated during a workout?", "is_classification": "No"}
+{"instruction": "What are the most effective ways to manage time efficiently?", "is_classification": "No"}
+{"instruction": "What are the most effective ways to overcome fear of public speaking?", "is_classification": "No"}
+{"instruction": "Write a list of things to do for a specific day of the week.", "is_classification": "No"}
+{"instruction": "Develop a lesson plan for teaching a specific skill or topic.", "is_classification": "No"}
+{"instruction": "Write a speech for a business meeting, such as a presentation or a proposal.", "is_classification": "No"}
+{"instruction": "Analyze the following statement: \"i'm not good at math.\"", "is_classification": "No"}
+{"instruction": "Identify the most common misspellings in the given word list.", "is_classification": "No"}
+{"instruction": "Identify the most important elements in the given chemical formula.", "is_classification": "No"}
+{"instruction": "Determine the tense of the following sentence: \"i am going to the store.\"", "is_classification": "Yes"}
+{"instruction": "Determine the mood of the following sentence: \"i am so happy today!\"", "is_classification": "Yes"}
+{"instruction": "Determine whether the following statement is true or false: \"the human body has 206 bones.\"", "is_classification": "Yes"}
+{"instruction": "Write a song with a chorus and two verses.", "is_classification": "No"}
+{"instruction": "Explain the process of creating a website and the importance of design and user experience.", "is_classification": "No"}
+{"instruction": "Given a sentence and a word, return the sentence where the word is replaced with a synonym.", "is_classification": "No"}
+{"instruction": "Identify the language of the following sentence: \"je suis français.\"", "is_classification": "Yes"}
+{"instruction": "Create a program in javascript that generates random trivia questions.", "is_classification": "No"}
+{"instruction": "Design a garden layout for a specific type of plant.", "is_classification": "No"}
+{"instruction": "Write a story about a fictional character and their journey.", "is_classification": "No"}
+{"instruction": "Given a list of words, create a word puzzle where each word can be written horizontally or vertically.", "is_classification": "No"}
+{"instruction": "Given a list of symptoms, identify the possible cause and suggest some treatment.", "is_classification": "No"}
+{"instruction": "Write a speech for a public event, such as a fundraiser or charity event.", "is_classification": "No"}
+{"instruction": "The paragraph states that the technology industry is expected to grow by 5% in the next year. what is the final answer to this question?", "is_classification": "No"}
+{"instruction": "Convert the measurement of 25 cm to inches.", "is_classification": "No"}
+{"instruction": "Explain the idiom \"break a leg\" and give me some examples of when it is used.", "is_classification": "No"}
+{"instruction": "Describe a time when you had to work collaboratively with a team to achieve a goal.", "is_classification": "No"}
+{"instruction": "Describe a time when you had to make a presentation to a group of people.", "is_classification": "No"}
+{"instruction": "An effective leader should be able to delegate tasks, have strong decision-making skills, be able to communicate effectively, and have a vision for the future.", "is_classification": "No"}
+{"instruction": "An effective politician should be able to persuade voters, have a clear vision for the future, be able to communicate effectively, and have a strong sense of morality.", "is_classification": "No"}
+{"instruction": "Develop a budget plan for a week's expenses.", "is_classification": "No"}
+{"instruction": "Write a conversation between two characters based on a given scenario.", "is_classification": "No"}
+{"instruction": "Given a set of historical figures, write a short essay on their contributions to society.", "is_classification": "No"}
+{"instruction": "Give examples of how to make a healthy breakfast.", "is_classification": "No"}
+{"instruction": "Write a list of all the fruits and vegetables that are high in vitamin c.", "is_classification": "No"}
+{"instruction": "Write a list of all the types of exercise that can help improve cardiovascular health.", "is_classification": "No"}
+{"instruction": "Expand the following sentence into a paragraph.", "is_classification": "No"}
+{"instruction": "What are the basic principles of game design?", "is_classification": "No"}
+{"instruction": "What are the main differences between a llc and a corporation?", "is_classification": "No"}
+{"instruction": "Define the word \"synergy\".", "is_classification": "No"}
+{"instruction": "Explain why this joke is funny.", "is_classification": "No"}
+{"instruction": "Convert 1234567890 to base 2.", "is_classification": "No"}
+{"instruction": "Write a song about a happy day spent with family and friends.", "is_classification": "No"}
+{"instruction": "Create a facebook or instagram post about a given topic.", "is_classification": "No"}
+{"instruction": "Create a video or short film on a given topic.", "is_classification": "No"}
+{"instruction": "Write a letter of appeal for a denied application.", "is_classification": "No"}
+{"instruction": "Give a recipe for a traditional holiday dish.", "is_classification": "No"}
+{"instruction": "Write a paragraph about a famous inventor who revolutionized their industry.", "is_classification": "No"}
+{"instruction": "Create a resume and cover letter.", "is_classification": "No"}
+{"instruction": "Write a recommendation letter for a business based on their products or services.", "is_classification": "No"}
+{"instruction": "Write a letter to a mentor thanking them for their guidance.", "is_classification": "No"}
+{"instruction": "Identify the key points of a particular speech.", "is_classification": "No"}
+{"instruction": "Create a list of different types of cuisine from around the world.", "is_classification": "No"}
+{"instruction": "Translate the following sentence into french: \"je suis content.\"", "is_classification": "No"}
+{"instruction": "Read the following text and answer a question about it. \"the earth's atmosphere is composed of several layers, including the troposphere, stratosphere, mesosphere, thermosphere, and exosphere.\" what is the composition of the troposphere?", "is_classification": "Yes"}
+{"instruction": "Create a website using flask that displays a list of famous quotes.", "is_classification": "No"}
+{"instruction": "Read the following text and answer a question about it. \"the human body has 206 bones.\" how many bones are in the human body?", "is_classification": "Yes"}
+{"instruction": "Given a list of items, create a budget or a spending plan.", "is_classification": "No"}
+{"instruction": "Given a set of instructions, write a manual or a user guide.", "is_classification": "No"}
+{"instruction": "Given a set of data, create a histogram or a bar chart.", "is_classification": "No"}
+{"instruction": "Create a timeline or a calendar for a specific event or project.", "is_classification": "No"}
+{"instruction": "Given a color, create a new color by mixing it with white.", "is_classification": "No"}
+{"instruction": "Write a function in c++ to calculate the sum of all the elements in an array.", "is_classification": "No"}
+{"instruction": "Develop a recommendation system for a movie or tv show based on user preferences.", "is_classification": "No"}
+{"instruction": "Provide examples of how to use a sewing machine to repair common household items.", "is_classification": "No"}
+{"instruction": "Create a list of at least 10 different types of hobbies and their corresponding time requirements.", "is_classification": "No"}
+{"instruction": "Write a poem about a snowy winter day.", "is_classification": "No"}
+{"instruction": "Given a set of numbers, find the smallest one and output it directly.", "is_classification": "Yes"}
+{"instruction": "Create a function that takes a sentence as input and returns the part of speech tag for each word in the sentence.", "is_classification": "Yes"}
+{"instruction": "Develop a program that generates a random word based on a given set of rules, such as using a specific set of letters or following a certain pattern.", "is_classification": "No"}
+{"instruction": "Given a set of urls, find the one with the highest number of backlinks.", "is_classification": "No"}
+{"instruction": "The misspelling in the sentence is \"beautiful\". the correct spelling is \"beautiful\".", "is_classification": "No"}
+{"instruction": "The customer will spend $30.", "is_classification": "No"}
+{"instruction": "Potential benefits of working from home:", "is_classification": "No"}
+{"instruction": "No, the sentence is not factually correct.", "is_classification": "No"}
+{"instruction": "The major rivers in north america are the mississippi river, the missouri river, the yukon river, the rio grande, the colorado river, and the st. lawrence river.", "is_classification": "No"}
+{"instruction": "Summary: the sentence states that the beautiful ones are not yet born in the egyptian dialect.", "is_classification": "No"}
+{"instruction": "The statement is unknown.", "is_classification": "No"}

@@ -614,7 +614,7 @@
 {"instruction": "Given a set of scientific papers, classify them as original research, review articles, or meta-analyses.", "is_classification": "Yes"}
 {"instruction": "Given a set of restaurant reviews, classify the ones that are for the cuisine, for the ambiance, or for the service.", "is_classification": "Yes"}
 {"instruction": "Identify if the following statement is true or false. output true or false.", "is_classification": "Yes"}
-{"instruction": "Predict the topic of the following sentence. the sentence is \"i am planning a trip to paris next month.\"", "is_classification": "No"}
+{"instruction": "Predict the topic of the following sentence. the sentence is \"i am planning a trip to paris next month.\"", "is_classification": "Yes"}
 {"instruction": "Predict the gender of the speaker in the following sentence. the speaker is \"john.\"", "is_classification": "No"}
 {"instruction": "Given a set of product features, classify them based on their importance (e.g. essential, important, nice to have, etc.).", "is_classification": "Yes"}
 {"instruction": "Given a set of job applications, classify them based on their relevance to the job posting (e.g. highly relevant, somewhat relevant, not relevant, etc.).", "is_classification": "Yes"}
@@ -668,7 +668,7 @@
 {"instruction": "Classify a given email as spam or not spam.", "is_classification": "Yes"}
 {"instruction": "Given a set of financial ratios, classify their financial health of a company.", "is_classification": "Yes"}
 {"instruction": "Given a set of restaurant menus, classify them into different categories such as italian, chinese, mexican, or american cuisine.", "is_classification": "Yes"}
-{"instruction": "Identify the type of language used in the following sentence: \"je suis d®¶sol®¶.\"", "is_classification": "Yes"}
+{"instruction": "Identify the type of language used in the following sentence: \"je suis d√©sol√©.\"", "is_classification": "Yes"}
 {"instruction": "Given a set of geographical locations, classify them into different countries such as the united states, china, japan, etc.", "is_classification": "Yes"}
 {"instruction": "Given a set of text documents, classify them based on their format (e.g., plain text, html, pdf).", "is_classification": "Yes"}
 {"instruction": "Given a set of scientific experiments, classify their purpose (e.g., to test a hypothesis, to gather data, etc.).", "is_classification": "Yes"}
