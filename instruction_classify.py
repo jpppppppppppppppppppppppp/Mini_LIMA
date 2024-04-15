@@ -14,10 +14,10 @@ import time
 from collections import OrderedDict
 
 client = OpenAI(
-  base_url="https://openrouter.ai/api/v1",
-  api_key="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"
+  base_url="https://lonlie.plus7.plus/v1",
+  api_key="sk-mUmlVDeXLtBFsxZr02DdFf3209Af4a329fE64c39Fb7425Fc"
 )
-
+# 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
 random.seed(time.time())
 
 template = [
@@ -118,20 +118,20 @@ template = [
 ]
 
 if __name__ == "__main__":
-    for idx in range(1, 4):
-        if os.path.exists(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(idx)):
-            with open(r"D:\Desktop\dsa\machine_tasks-{}.jsonl".format(idx), "r") as fw:
+    for idx in range(1, 6):
+        if os.path.exists(r"D:\Desktop\dsa\cly_machine_tasks-{}.jsonl".format(idx)):
+            with open(r"D:\Desktop\dsa\cly_machine_tasks-{}.jsonl".format(idx), "r", encoding="utf-8") as fw:
                 lines = fw.readlines()
                 print("Have loaded {} tasks".format(len(lines)))
         exist_ins = {}
-        if os.path.exists(r"D:\Desktop\dsa\cls_machine_tasks-{}.jsonl".format(idx)):
-            with open(r"D:\Desktop\dsa\cls_machine_tasks-{}.jsonl".format(idx), "r") as fw:
+        if os.path.exists(r"D:\Desktop\dsa\cly_cls_machine_tasks-{}.jsonl".format(idx)):
+            with open(r"D:\Desktop\dsa\cly_cls_machine_tasks-{}.jsonl".format(idx), "r", encoding="utf-8") as fw:
                 for line in fw:
                     ins = json.loads(line)
                     exist_ins[ins["instruction"]] = ins
             print("Have existed {} tasks".format(len(exist_ins)))
         
-        with open(r"D:\Desktop\dsa\cls_machine_tasks-{}.jsonl".format(idx), "w") as fw:
+        with open(r"D:\Desktop\dsa\cly_cls_machine_tasks-{}.jsonl".format(idx), "w", encoding="utf-8") as fw:
             i = 0
             while i + 1 <= len(lines):
                 line = json.loads(lines[i])
@@ -144,6 +144,7 @@ if __name__ == "__main__":
                     fw.write(json.dumps(data, ensure_ascii=False) + "\n")
                     i += 1
                 else:
+                    print(idx, i)
                     prompt = "Task: " + line["instruction"].strip() + "\n" + "Is it classification?"
                     prompt = {"role" : "user", "content" : prompt}
                     prompts = template.copy()
@@ -151,7 +152,7 @@ if __name__ == "__main__":
                     print(prompt["content"])
                     try:
                         completion = client.chat.completions.create(
-                            model="mistralai/mistral-7b-instruct:free",
+                            model="gpt-3.5-turbo",
                             messages=prompts, 
                             stop=["\n", "Task"],
                             max_tokens = 3,
@@ -178,9 +179,8 @@ if __name__ == "__main__":
                         fw.write(json.dumps(data, ensure_ascii=False) + "\n")
                         fw.flush()
                         i += 1
-                        time.sleep(5)
+                        time.sleep(2)
                     except Exception as e:
                         print(e)
                         time.sleep(10)
-                if i % 5 == 4:
-                    print(i)
+            fw.flush()
